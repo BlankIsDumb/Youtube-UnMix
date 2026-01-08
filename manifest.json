@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube UnMix",
+  "version": "1.0.0",
+  "description": "A simple extension that automatically redirects you away from Youtube's Automix & Radio",
+  "permissions": ["tabs"],
+  "host_permissions": ["https://www.youtube.com/*", "https://music.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
